@@ -213,7 +213,22 @@ namespace UnityLauncherPro.Properties {
                 this["streamerMode"] = value;
             }
         }
-        
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool useAlphaReleaseNotes
+        {
+            get
+            {
+                return ((bool)(this["useAlphaReleaseNotes"]));
+            }
+            set
+            {
+                this["useAlphaReleaseNotes"] = value;
+            }
+        }
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
